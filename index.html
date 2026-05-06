@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ Game Pro</title>
+    <style>
+        :root {
+            --primary-color: #ff4757;
+            --secondary-color: #2f3542;
+            --text-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f2f6;
+            color: #333;
+        }
+
+        header {
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #ddd;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .service-body {
+            padding: 20px;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 10px 0;
+            display: block;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .features li:last-child {
+            border-bottom: none;
+        }
+
+        .btn-order {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn-order:hover {
+            background-color: #1e2129;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DỊCH VỤ CÀY THUÊ UY TÍN</h1>
+    <p>Nhanh chóng - Bảo mật - An toàn</p>
+</header>
+
+<div class="container">
+    <div class="service-grid">
+        <div class="service-card">
+            <div class="service-header">Gói Cày Level Siêu Tốc</div>
+            <div class="service-body">
+                <span class="price">50.000 VNĐ</span>
+                <ul class="features">
+                    <li>🎯 Tăng 500 - 1000 Level</li>
+                    <li>⏱️ Hoàn thành trong 24h</li>
+                    <li>🛡️ Bảo mật tài khoản 100%</li>
+                    <li>🎁 Tặng kèm vật phẩm ngẫu nhiên</li>
+                </ul>
+                <a href="#" class="btn-order">Đăng Ký Ngay</a>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-header">Gói Săn Vật Phẩm Hiếm</div>
+            <div class="service-body">
+                <span class="price">120.000 VNĐ</span>
+                <ul class="features">
+                    <li>⚔️ Săn Boss theo yêu cầu</li>
+                    <li>📦 Tỷ lệ thành công cao</li>
+                    <li>📞 Hỗ trợ 24/7</li>
+                    <li>⚡ Tối ưu hóa thời gian</li>
+                </ul>
+                <a href="#" class="btn-order">Đăng Ký Ngay</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Dịch Vụ Game Pro. All rights reserved.
+</footer>
+
+</body>
+</html>
